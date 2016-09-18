@@ -1,0 +1,40 @@
+body {
+  font-size: 62.5%;
+  background: url(http://practice-pixels.s3.amazonaws.com/texture-blue.jpg);
+  background-color: MediumBlue;
+  padding: 50px 0;
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+header {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+header img {
+  width: 80px;
+}
+
+h1, h2, h3, h4 {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  color: #D42A1D; /* Rust Orange */;
+}
+
+.book {
+  background-color: #EEEEEE; /* Light grey */
+  margin-left: 20px;
+  padding: 5px 10px;
+}

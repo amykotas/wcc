@@ -1,7 +1,6 @@
 body {
   font-size: 62.5%;
   background: url(http://practice-pixels.s3.amazonaws.com/texture-blue.jpg);
-  background-color: MediumBlue;
   padding: 50px 0;
 }
 
@@ -27,14 +26,54 @@ header img {
 
 h1, h2, h3, h4 {
   font-family: Helvetica, sans-serif;
+  margin: 2px;
 }
 
 h1 {
-  color: #D42A1D; /* Rust Orange */;
+  color: #D42A1D; /* Rust Orange */
+}
+
+h2 {
+  font-size: 1.25rem;
 }
 
 .book {
   background-color: #EEEEEE; /* Light grey */
-  margin-left: 20px;
-  padding: 5px 10px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
 }
+
+p {
+  line-height: 1.5;
+  font-size: 1.0rem; /* 10px */
+  font-family: Georgia;
+}
+
+/* Global page link styles */
+a:link {
+  font-family: Helvetica, sans-serif;
+  color: #D42A1D; /* Rust Orange */
+}
+
+a:visited {
+  color: #D42A1D; /* Rust Orange */
+}
+
+a:hover {
+  color: #185A96;  /* Denim Blue */
+}
+
+a:active {
+  color: #D42A1D; /* Rust Orange */
+}
+
+footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  padding: 5px;
+}
+
